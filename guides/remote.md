@@ -17,7 +17,7 @@ For demonstration purposes, I've setup a droplet on Digital Ocean running the la
 Some items you'll need to set up on your own:
 
 * Access your VPS via `ssh`
-* [Create a non-root user](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/) with [sudo priviledges](https://linuxize.com/post/how-to-add-user-to-group-in-linux/) [(passwordless)](https://linuxize.com/post/how-to-run-sudo-command-without-password/) and [`ssh` publickey access](https://linuxize.com/post/how-to-set-up-ssh-keys-on-debian-10/).
+* [Create a non-root user](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/) with [sudo privileges](https://linuxize.com/post/how-to-add-user-to-group-in-linux/) [(passwordless)](https://linuxize.com/post/how-to-run-sudo-command-without-password/) and [`ssh` publickey access](https://linuxize.com/post/how-to-set-up-ssh-keys-on-debian-10/).
 * Write down the IP Address of your VPS.
 
 ## Purchase a Domain
@@ -111,7 +111,7 @@ This is perfectly fine. What it means is that NGINX has found the route and is d
 
 ## A Simple Python Web Application
 
-There are a number of different web application frameworks in Python. I've grown fond of Tornado. Others that exist are Django, Flask, and FastAPI. Each has their srengths and weaknesses, which of course are beyond the scope of this workshop to cover. You could also use Node.js to build a web application and spin it up at port 3000 as well.
+There are a number of different web application frameworks in Python. I've grown fond of Tornado. Others that exist are Django, Flask, and FastAPI. Each has their strengths and weaknesses, which of course are beyond the scope of this workshop to cover. You could also use Node.js to build a web application and spin it up at port 3000 as well.
 
 For this example, we're using a python one-liner to launch a simple http server and serve up an index.html file.
 

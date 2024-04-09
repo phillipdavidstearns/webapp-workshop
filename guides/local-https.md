@@ -69,3 +69,5 @@ server {
 1. Save changes
 1. Restart the server `brew services restart nginx`
 1. Navigate to `http://localhost:80`
+
+Doing so will force the browser to attempt to connect to the HTTP version of your site. The NGINX configuration listens on port 80 and redirects the browser to the HTTPS version of the site (on port 443).
