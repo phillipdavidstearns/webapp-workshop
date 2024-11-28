@@ -12,16 +12,17 @@ I’m not a professional developer. I’m an artist. That said, I’ve taught my
 This workshop will walkthrough the following processes in two sections:
 
 * Local
-	* [Install and configure NGINX](./guides/local-nginx.md)
-	* [HTTPS](./guides/local-https.md)
+	* Install and configure NGINX - [guide](./guides/local-nginx.md)
+	* HTTPS - [guide](./guides/local-https.md)
 
-* Remote ([guide linked here](./guides/remote.md))
-	* Setup a Linux Virtual Private Server (for cheap)
-	* Register a Domain and point it to your server
-	* Configure NGINX as a reverse proxy
-	* Use Certbot to install tls/ssl certificates
-	* Create a simple web application using Python
-	* Deploy and manage the site using systemd
+* Remote
+	* Deploy remotely - [guide](./guides/remote.md):
+		* Setup a Linux Virtual Private Server (for cheap)
+		* Register a Domain and point it to your server
+		* Configure NGINX as a reverse proxy
+		* Use Certbot to install tls/ssl certificates
+		* Create a simple web application using Python
+		* Deploy and manage the site using systemd
 
 ### "Prerequisites"
 
